@@ -16,12 +16,21 @@ console.log(nr1, nr2, nr3, nr4, nr5, nr6, nr7, nr8, nr9, nr10)
 
 const somma = nr1 + nr2 + nr3 + nr4 + nr5 + nr6 + nr7 + nr8 + nr9 + nr10;
 console.log(somma)*/
-
+/*let sum = 0
 for (let i = 0; i <= 9; i++){
     const nr = Number(prompt('dammi un numero'));
-    let somma = i + nr
-    console.log(nr)
-    console.log(somma)
+    sum +=  nr
+    
+    console.log(sum)*/
    // let somma = nr + nr + nr + nr + nr +nr + nr + nr + nr + nr
   //  console.log(somma)
+//}
+
+let sum = 0;
+while (sum < 11) {
+    let nr = Number(prompt('dammi un numero'));
+    sum += nr
+
+    nr++
+    console.log(sum)
 }
