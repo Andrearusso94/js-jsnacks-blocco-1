@@ -27,10 +27,11 @@ for (let i = 0; i <= 9; i++){
 //}
 
 let sum = 0;
-while (sum < 10) {
+let i = 0;
+while (i < 10) {
     let nr = Number(prompt('dammi un numero'));
     sum += nr
 
-    nr++
+    i++
     console.log(sum)
 }
