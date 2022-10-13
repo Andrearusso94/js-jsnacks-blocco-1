@@ -7,7 +7,7 @@ const myName = prompt("dimmi il tuo nome");
 console.log(myName);
 let isValid = false;
 
-for (let i = 0; i < nameParty.length; i++ ){
+/*for (let i = 0; i < nameParty.length; i++ ){
     const element = nameParty[i];
     
 if  ( myName === element ){
@@ -16,3 +16,17 @@ if  ( myName === element ){
    
 } 
 } console.log(isValid) 
+*/
+
+// while
+
+let i = 0
+while (i < nameParty.length){
+    let element = nameParty[i];
+    i++
+    if (myName === element){
+        isValid = true;
+    
+        console.log("goditi la festa")
+    } 
+}console.log(isValid)
