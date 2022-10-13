@@ -11,8 +11,8 @@ if (name1.length < name2.length) {
     let myMessage = `Ciao questo è il nome più corto: ${name1}`
     document.getElementById("name").innerHTML = myMessage;
     console.log(name1, name2)
-} else {
-    
+} else if (name2.length < name1.length){
+
     let myMessage = `Ciao questo è il nome più corto: ${name2}`
     document.getElementById("name").innerHTML = myMessage;
     console.log(name2, name1)
