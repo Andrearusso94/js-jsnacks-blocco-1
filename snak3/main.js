@@ -27,7 +27,7 @@ for (let i = 0; i <= 9; i++){
 //}
 
 let sum = 0;
-while (sum < 11) {
+while (sum < 10) {
     let nr = Number(prompt('dammi un numero'));
     sum += nr
 
